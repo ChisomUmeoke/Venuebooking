@@ -11,7 +11,7 @@
 }
 
 .background{
-    background:#000 url('Venue.jpg'); 
+    background:#000 url('/Images/Venue.jpg'); 
     height: 80vh;
 }
 
