@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+    
+    body{
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+    margin:0;
+    border:0;
+}
+
+.background{
+    background:#000 url('/Images/Venue.jpg'); 
+    height: 80vh;
+}
+
+.headnav{
+    background-color: red;
+    display:flex;
+    justify-content:space-around;
+    padding:1.20em;
+}
+
+.headnav a {
+    color: #f2f2f2;
+    text-decoration: none;
+    font-size: 1.2rem;
+  }
+  
+  .headnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  .headnav a.active {
+    background-color: #4CAF50;
+    color: red;
+  }
+
+  h1{
+      font-size: 1.45em;
+      color:white;
+      text-align: center;
+      margin-top:2em;
+  }
+ 
+  a{
+      color: red;
+      text-decoration: none;
+  }
+  a:hover{
+    color:rgb(255, 187, 0);
+  }
+
+   
+.form-container{
+    display:block;
+    text-align:center;
+    margin:0 auto;
+}
+
+  label{
+      color:white;
+      font-size:1em;
+      font-weight: bold;
+      }
+ 
+
+    input[type=text], select{
+        color: red;
+        padding: 1.15em 7em 1em 1.15em;
+        border: 1px;
+        border-radius: 5px;
+       
+    }
+
+    
+
+    select{        
+        font-size: 14px;
+        color:black;
+        background-color:blanchedalmond;
+        margin: 1px 0px 20px;
+    }
+
+Input[type=submit] {
+    color: white;
+    background-color: red;
+    padding: 1em 2em;
+    cursor: pointer;
+    margin: 1em auto;
+    border-radius: 10px;
+    border:none;
+}
+
+h2{
+    color:red;
+    Font-size: 3em;
+    text-align: center;
+    text-decoration: underline;
+}
+
+
+  .left{
+      display:flex;
+      justify-content:space-around;
+      float:left;
+      width: 33.3%;
+      margin-bottom: 16px;
+  }
+
+  .allphotos:after{
+      content:"";
+      display: table;
+      clear:both;
+  }
+  .content{
+      background: white;
+      padding:0.50em;
+      box-shadow:0 2px 2px 0 rgba(253, 2, 2, 0.2);
+      margin: 0.45em;
+  }
+
+  h3{
+    font-weight: Bold;
+    text-align:center;
+    text-transform: uppercase;
+    }  
+
+h4{
+color:red;
+font-weight: lighter;
+font-size:0.50em;
+text-align:center;
+text-transform: uppercase;
+}
+
+p{
+    text-align:center;
+}
+
+.btn{
+    display:flex;
+    justify-content: space-around;
+    margin: 2em;
+}
+
+.button{
+    color:white;
+    background-color: red;
+   padding:0.55em 1.8em;
+    cursor: pointer;
+    font-weight:bold;
+    border:none;
+    border-radius: 10px;
+
+}
+
+.whitebutton{
+    color:red;
+    background-color: white;
+    padding:0.55em 1em;
+    cursor: pointer;
+    font-weight:bold;
+    border-radius: 10px;
+    border:1px solid red;
+}
+
+
+.group{
+    background-color: red;
+    padding: 5em;
+}
+
+.different{
+    color:red;
+    border-radius:10px;
+    border: 1px red;
+    background-color: white;
+    padding:0.55em 1.25em;
+    cursor:pointer;
+
+
+}
