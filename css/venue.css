@@ -10,7 +10,7 @@
     border:0;
 }
 
-.background{
+.hero-bg{
     background:#000 url('../Images/Venue.jpg'); 
     height: 80vh;
 }
